@@ -11,8 +11,8 @@ import UIKit
 class MyMealsTableViewCell: UITableViewCell {
 
     @IBOutlet var nameLabel: UILabel!
-    @IBOutlet var detailsLabel: UILabel!
     @IBOutlet var locationLabel: UILabel!
+    @IBOutlet var detailsLabel: UITextView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
