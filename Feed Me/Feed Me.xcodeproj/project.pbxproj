@@ -16,6 +16,11 @@
 		3F38454C246F49C4006913C1 /* MyMealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38454B246F49C4006913C1 /* MyMealsTableViewController.swift */; };
 		3F38454E246F5858006913C1 /* MyMealsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38454D246F5858006913C1 /* MyMealsTableViewCell.swift */; };
 		3F384550246F5B78006913C1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38454F246F5B78006913C1 /* DetailViewController.swift */; };
+		3FBB3168248169CD007CF4DD /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB3167248169CD007CF4DD /* SliderViewController.swift */; };
+		3FBB316A2481720F007CF4DD /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB31692481720F007CF4DD /* ResultsViewController.swift */; };
+		3FBB316C2481729C007CF4DD /* slider2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB316B2481729C007CF4DD /* slider2ViewController.swift */; };
+		3FBB316E248172A6007CF4DD /* slider3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB316D248172A6007CF4DD /* slider3ViewController.swift */; };
+		3FBB317024817E5E007CF4DD /* resViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB316F24817E5E007CF4DD /* resViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		3F38454B246F49C4006913C1 /* MyMealsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMealsTableViewController.swift; sourceTree = "<group>"; };
 		3F38454D246F5858006913C1 /* MyMealsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMealsTableViewCell.swift; sourceTree = "<group>"; };
 		3F38454F246F5B78006913C1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3FBB3167248169CD007CF4DD /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		3FBB31692481720F007CF4DD /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		3FBB316B2481729C007CF4DD /* slider2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slider2ViewController.swift; sourceTree = "<group>"; };
+		3FBB316D248172A6007CF4DD /* slider3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slider3ViewController.swift; sourceTree = "<group>"; };
+		3FBB316F24817E5E007CF4DD /* resViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				3F384539246DDBE4006913C1 /* SceneDelegate.swift */,
 				3F38453B246DDBE4006913C1 /* ViewController.swift */,
 				3F38453D246DDBE4006913C1 /* Main.storyboard */,
+				3FBB3167248169CD007CF4DD /* SliderViewController.swift */,
+				3FBB31692481720F007CF4DD /* ResultsViewController.swift */,
+				3FBB316B2481729C007CF4DD /* slider2ViewController.swift */,
+				3FBB316F24817E5E007CF4DD /* resViewController.swift */,
+				3FBB316D248172A6007CF4DD /* slider3ViewController.swift */,
 				3F38454B246F49C4006913C1 /* MyMealsTableViewController.swift */,
 				3F38454F246F5B78006913C1 /* DetailViewController.swift */,
 				3F38454D246F5858006913C1 /* MyMealsTableViewCell.swift */,
@@ -148,11 +163,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F38454C246F49C4006913C1 /* MyMealsTableViewController.swift in Sources */,
+				3FBB3168248169CD007CF4DD /* SliderViewController.swift in Sources */,
+				3FBB316C2481729C007CF4DD /* slider2ViewController.swift in Sources */,
 				3F38453C246DDBE4006913C1 /* ViewController.swift in Sources */,
 				3F38454E246F5858006913C1 /* MyMealsTableViewCell.swift in Sources */,
 				3F384550246F5B78006913C1 /* DetailViewController.swift in Sources */,
 				3F384538246DDBE4006913C1 /* AppDelegate.swift in Sources */,
 				3F38453A246DDBE4006913C1 /* SceneDelegate.swift in Sources */,
+				3FBB317024817E5E007CF4DD /* resViewController.swift in Sources */,
+				3FBB316A2481720F007CF4DD /* ResultsViewController.swift in Sources */,
+				3FBB316E248172A6007CF4DD /* slider3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

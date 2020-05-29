@@ -14,6 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }    
+    @IBAction func beginPressed(_ sender: Any) {
+    
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
+        let selectedVC = storyboard.instantiateViewController(identifier: "resVC") as! resViewController
+        navigationController?.pushViewController(selectedVC, animated: true)
+     
+    }
+    
 }
 
