@@ -23,7 +23,6 @@ class ResultsViewController: UIViewController {
     var namesList: [String] = ["Sal's Pizza South", "The Victorian Inn", "Doreen's Drive In"]
 
     @IBOutlet weak var restNameLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var rezDetailsLabel: UITextView!
   
     //learned hpw to set image programatically here: https://stackoverflow.com/questions/27039140/programmatically-set-image-to-uiimageview-with-xcode-6-1-swift
@@ -60,9 +59,10 @@ class ResultsViewController: UIViewController {
             pic.image = UIImage(named: "victorian")
         }
         
-        let resetDefaults: [String] = []
-        defaults.set(resetDefaults, forKey: "resDetails" )
-        timeLabel.text = "\(timeText) PM"
+        let resetDetails: [String] = []
+        let resetScores: [Int] = [0,0,0]
+        defaults.set(resetDetails, forKey: "resDetails" )
+        defaults.set(resetScores, forKey: "scores")
         rezDetailsLabel.text = "Your reservation for \(guestText) guests under the name \(nameText) has been made at \(restName) less than \(distanceText) miles away."
         restNameLabel.text = restName
     }
