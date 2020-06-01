@@ -7,15 +7,22 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
+    let defaults = UserDefaults.standard
+    let salScore: Int = 0
+    let vicScore: Int = 0
+    let doreenScore: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }    
-    @IBAction func beginPressed(_ sender: Any) {
+        let scoreArray: [Int] = [salScore, vicScore, doreenScore]
+        defaults.set(scoreArray, forKey: "scores" )
+    }
     
+    @IBAction func beginPressed(_ sender: Any) {
+        
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
         let selectedVC = storyboard.instantiateViewController(identifier: "resVC") as! resViewController

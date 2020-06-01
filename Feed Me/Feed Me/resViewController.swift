@@ -32,7 +32,7 @@ class resViewController: UIViewController {
         let name = nameInput.text!
         
         let resDetails: [String] = [time, guests, distance, name]
-              defaults.set(resDetails, forKey: "resDetails" )
+            defaults.set(resDetails, forKey: "resDetails" )
         
         navigationController?.pushViewController(selectedVC, animated: true)
     }
